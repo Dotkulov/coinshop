@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "name": "Монета 10 копеек 1967 Пробные 50 лет Советской власти",
+    "category": "coins",
+    "price": 130000,
+    "image1": "https://cdn.imperial-mag.ru/imgp/coin_h500/upload/shop_3/2/0/9/item_20907/item_image20907.jpg.jpg?1584377384",
+    "image2": "https://cdn.imperial-mag.ru/imgp/coin_h500/upload/shop_3/2/0/9/item_20907/shop_property_file_20907_40257.jpg.jpg?1584377384"
+  },
+  {
+    "id": 2,
+    "name": "Османская империя, Селим I, 1512-1520 (918-926) годы, Султани алтын",
+    "category": "coins",
+    "price": 600000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/53/03/636953/2245567_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/53/03/636953/2250944_mainViewLot_2x.avif  "
+  },
+  
+  {
+    "id": 3,
+    "name": "Монетник на 150 ячеек (35*35мм), коричневый",
+    "category": "albums",
+    "price": 360,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/22/56/4522/153783_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/22/56/4522/153784_mainViewLot_2x.avif"
+  },
+  {
+    "id": 4,
+    "name": "Бангладеш 2 така 2016 Памятник Шахид Минар",
+    "category": "banknotes",
+    "price": 220,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/76/76/679976/2392544_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/76/76/679976/2390262_mainViewLot_2x.avif"
+  },
+  {
+    "id": 5,
+    "name": "Пачка чёрных квадрокапсул QUADRUM 20 шт в упаковке: тип 'D' 17/22/27/32/37 мм",
+    "category": "capsules",
+    "price": 690 ,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/70/98/285570/2051463_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/70/98/285570/1100646_mainViewLot_2x.avif"
+  },  
+  {
+    "id": 6,
+    "name": "Филиппины - 2000 песо 1998 год юбилейная 100 лет Первой Республике",
+    "category": "banknotes",
+    "price": 22100,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/90/51/256190/948684_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/90/51/256190/948680_big.avif"
+  },
+  {
+    "id": 7,
+    "name": "3 рубля 1925 года с серией ДК 252127 наркомфин Сокольников",
+    "category": "banknotes",
+    "price": 19900,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/51/51/685051/2423101_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/51/51/685051/2423100_mainViewLot_2x.avif"
+  },
+  {
+    "id": 8,
+    "name": "Альбом для юбилейных и памятных монет России: том II (с 2014-2018)",
+    "category": "albums",
+    "price": 6150,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/72/97/655972/2305935_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/72/97/655972/2305937_mainViewLot_2x.avif"
+  },
+  {
+    "id": 9,
+    "name": "Набор чёрных капсул QUADRUM 100 штук в футляре для монет",
+    "category": "capsules",
+    "price": 6700,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/73/68/718473/2575902_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/73/68/718473/2575905_mainViewLot_2x.avif"
+  },
+  {
+    "id": 10,
+    "name": "Альбом Albo Numismatico Памятные монеты Канады для обращения том III",
+    "category": "albums",
+    "price": 2500,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/70/29/574070/2019904_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/70/29/574070/2019905_mainViewLot_2x.avif"
+  },
+  {
+    "id": 11,
+    "name": "Германия, Третий рейх 50 рейхспфеннигов 1939",
+    "category": "coins",
+    "price": 14900,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/83/90/722783/2545205_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/83/90/722783/2545208_mainViewLot_2x.avif"
+  },
+  {
+    "id":12,
+    "name": "Украина набор 7 монет 2009-2012 год (1, 2, 5, 10, 25 и 50 копеек, 1 гривна)",
+    "category": "coins",
+    "price": 350,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/17/19/555617/1973718_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/17/19/555617/1973719_mainViewLot_2x.avif"
+  },
+  {
+    "id": 13,
+    "name": "Капсула для монет Leuchtturm 14 мм",
+    "category": "capsules",
+    "price": 120,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/74/35/67774/190678_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/74/35/67774/190679_mainViewLot_2x.avif"
+  },
+  {
+    "id": 14,
+    "name": "Набор банкнот 1917 года 250 и 1000 рублей (2 боны) образца Временного Правительства",
+    "category": "banknotes",
+    "price": 1750,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/01/61/112901/2315633_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/01/61/112901/2315632_mainViewLot_2x.avif"
+  },
+  {
+    "id": 15,
+    "name": "Набор из 3-х серебряных монет 1924-1930 гг. (10, 15 и 20 копеек)",
+    "category": "coins",
+    "price": 2100,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/36/86/722736/2542714_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/36/86/722736/2542715_mainViewLot_2x.avif"
+  },
+  {
+    "id": 16 ,
+    "name": "Московское Княжество. Иван III, Денга (СЛ/Трилистник)",
+    "category": "coins",
+    "price": 1250,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/90/86/724290/2549412_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/90/86/724290/2549413_mainViewLot_2x.avif"
+  },
+  {
+    "id": 17,
+    "name": "Намибия набор 10,20,30,50,100,200 долларов",
+    "category": "banknotes",
+    "price": 12000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/45/44/412845/1472878_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/45/44/412845/1472879_mainViewLot_2x.avif"
+  },
+  {
+    "id": 18,
+    "name": "Российская Империя 5 копеек 1793 г",
+    "category": "coins",
+    "price": 15000,
+    "image1": "https://антиквариат37.рф/wa-data/public/shop/products/06/41/144106/images/194973/194973.970.jpg",
+    "image2": "https://антиквариат37.рф/wa-data/public/shop/products/06/41/144106/images/194974/194974.970.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Набор банкнот 100, 500 рублей 1917-18 Оренбургское ОГБ",
+    "category": "banknotes",
+    "price": 21000,
+    "image1": "https://антиквариат37.рф/wa-data/public/shop/products/26/29/132926/images/142856/142856.440.jpg",
+    "image2": "https://антиквариат37.рф/wa-data/public/shop/products/26/29/132926/images/142857/142857.440.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Альбом Памятных монеты СССР",
+    "category": "albums",
+    "price": 800,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/70/55/205970/732888_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/70/55/205970/732890_mainViewLot_2x.avif"
+  },
+  {
+    "id": 21,
+    "name": "Монетник на 192 ячейки (26*29мм), синий",
+    "category": "albums",
+    "price": 250,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/79/62/52579/1871187_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/79/62/52579/1871184_mainViewLot_2x.avif"
+  },
+  {
+    "id": 22,
+    "name": "Альбом юбилейных монет стран Еврозоны номиналом 2 евро с 2016 по 2021, том II",
+    "category": "albums",
+    "price": 4100,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/79/59/509979/1814398_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/79/59/509979/1814397_mainViewLot_2x.avif"
+  },
+  {
+    "id": 23,
+    "name": "Деревянный футляр (110х360х40 мм) для 5 монет в капсулах",
+    "category": "capsules",
+    "price": 2000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/82/34/368382/1319687_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/82/34/368382/1319685_mainViewLot_2x.avif"
+  },
+  {
+    "id": 24,
+    "name": "Деревянный футляр Volterra ( 194 х 149 х 32 мм) для 6 монет в капсулах",
+    "category": "capsules",
+    "price": 3500,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/04/26/700304/2463703_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/04/26/700304/2463702_mainViewLot_2x.avif"
+  },
+  {
+    "id": 25,
+    "name": "Капсулы Quadrum Intercept для монет 26 мм",
+    "category": "capsules",
+    "price": 250,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/72/85/283072/1041951_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/72/85/283072/1041946_mainViewLot_2x.avif"
+  },
+  {
+    "id": 26,
+    "name": "Капсулы для монет на 25 мм 100 штук в упаковке",
+    "category": "capsules",
+    "price": 730,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/14/37/447814/1679647_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/14/37/447814/1679653_mainViewLot_2x.avif"
+  },
+   {
+    "id": 27,
+    "name": "Футляр пластиковый под капсулу диаметром 50 мм",
+    "category": "capsules",
+    "price": 1000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/00/88/642800/2262549_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/00/88/642800/2262548_mainViewLot_2x.avif"
+  },
+  {
+    "id": 28,
+    "name": "Альбом для монет серии Прекрасная Америка, национальные парки США",
+    "category": "albums",
+    "price": 150,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/95/78/532695/1886701_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/95/78/532695/1886699_mainViewLot_2x.avif"
+  },
+  {
+    "id": 29,
+    "name": "Полный набор банкнот 1917 года 20, 40, 250 и 1000 рублей (4 боны) образца Временного Правительства",
+    "category": "banknotes",
+    "price": 2500,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/20/89/66620/187157_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/20/89/66620/187158_mainViewLot_2x.avif"
+  },
+  {
+    "id": 30,
+    "name": "Набор банкнот Нигерии 2016-2024 (3 штуки)",
+    "category": "banknotes",
+    "price": 230,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/78/88/72578/398237_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/78/88/72578/398236_mainViewLot_2x.avif"
+  },
+  {
+    "id": 31,
+    "name": "Приднестровье 1 рубль 2007 80-летие Победы в ВОВ 1941–1945 гг. в буклете, выпуск 2025 года",
+    "category": "banknotes",
+    "price": 2000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/27/87/745227/2627213_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/27/87/745227/2627214_mainViewLot_2x.avif"
+  },
+  {
+    "id": 32,
+    "name": "Беларусь набор банкнот 1992 года (6 штук)",
+    "category": "banknotes",
+    "price": 600,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/49/28/166949/554029_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/49/28/166949/554030_mainViewLot_2x.avif"
+  },
+  {
+    "id": 33,
+    "name": "Самоа 20 центов (cents) 2025 Азиатские мифические существа — Лу Шу",
+    "category": "coins",
+    "price": 2000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/05/85/746405/2630283_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/05/85/746405/2630284_mainViewLot_2x.avif"
+  },
+  {
+    "id": 34,
+    "name": "Франция набор из 12 монет 1/4 евро (euro) 2021-2024 XXXIII летние Олимпийские игры в Париже",
+    "category": "coins",
+    "price": 7500,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/22/31/669022/2353022_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/22/31/669022/2353017_mainViewLot_2x.avif"
+  },
+  {
+    "id": 35,
+    "name": "Холдеры для банкнот 85*180 мм 50 шт в упаковке",
+    "category": "capsules",
+    "price": 150,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/98/02/285598/2051474_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/98/02/285598/1082991_mainViewLot_2x.avif"
+  },
+  {
+    "id": 36,
+    "name": "Холдеры для монет под скрепку D 31,5 мм, 50 шт в упаковке",
+    "category": "capsules",
+    "price": 250,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/22/90/285222/2051488_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/22/90/285222/1083432_mainViewLot_2x.avif"
+  },
+  {
+    "id": 37,
+    "name": "Альбом для однодолларовых монет серии Президенты США",
+    "category": "albums",
+    "price": 200,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/96/48/532696/1886704_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/96/48/532696/1886702_mainViewLot_2x.avif"
+  },
+  {
+    "id": 38,
+    "name": "Капсульный альбом для монет серии Штаты и территории США",
+    "category": "albums",
+    "price": 300,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/29/39/153029/495974_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/29/39/153029/495972_mainViewLot_2x.avif"
+  },
+  {
+    "id": 39,
+    "name": "Альбом для юбилейных монет Украины (I том 1995-2005 гг.)",
+    "category": "albums",
+    "price": 5000,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/76/36/655976/2305960_big.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/76/36/655976/2305962_mainViewLot_2x.avif"
+  },
+  {
+    "id": 40,
+    "name": "Китай 10 юаней 2015 Космос",
+    "category": "coins",
+    "price": 1200,
+    "image1": "https://cdn.monetnik.ru/storage/market-lot/87/74/737287/2596025_mainViewLot_2x.avif",
+    "image2": "https://cdn.monetnik.ru/storage/market-lot/87/74/737287/2596026_mainViewLot_2x.avif"
+  }
+
+]

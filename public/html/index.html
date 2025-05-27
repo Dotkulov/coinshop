@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Лавка нумизмата</title>
+  <link rel="stylesheet" href="/style/style-index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <span class="logo-text">
+      <img src="/images/logo.png" alt="Логотип" class="logo-icon" style="width: 75px; height: 75px;" />
+
+      Лавка нумизмата
+    </span>
+  
+    <div class="pages-nav">
+      <a href="/html/" class="nav-btn active">Главная</a>
+      <a href="/html/about.html" class="nav-btn">О магазине</a>
+      <a href="/html/contacts.html" class="nav-btn">Контакты</a>
+    </div>
+
+    <div class="login-icon" onclick="openLoginModal()">
+      <i class="fas fa-user"></i>
+    </div>
+  </nav>
+
+  <div id="loginModal" class="login-modal hidden">
+    <div class="login-modal-content">
+      <span class="login-close" onclick="closeLoginModal()">&times;</span>
+      <iframe src="/html/login.html" frameborder="0" class="login-iframe"></iframe>
+    </div>
+  </div>
+
+  <h1 class="h1-main">
+    Нумизматический интернет-магазин монет и банкнот
+  </h1>
+
+  <button id="secret-video-btn" style="position: absolute; left: 20px; top: 140px; width: 50px; height: 50px; opacity: 0; z-index: 999;"></button>
+
+  <div id="video-modal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 9999; justify-content: center; align-items: center;">
+    <video id="secret-video" controls autoplay style="max-width: 90%; max-height: 90%; border-radius: 12px;">
+      <source src="/images/Dante.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+
+  <div class="pricing-wrapper">
+    <div class="pricing-card standard">
+      <h3>Пробная версия</h3>
+      <ul>
+        <li>• Бонус на первую покупку</li>
+        <li>• Уведомления на почту/Telegram о новых монетах</li>
+        <li>• Персональная подборка</li>
+        <li>• Видео: как отличить подделку от оригинала</li>
+        <li>• Возможность оформить заказ без предоплаты</li>
+        <li>• Бонус новичку</li>
+      </ul>
+      <p class="price">₽ <span>199</span>/неделю</p>
+      <a href="/html/oplata.html" class="btn subscribe">Подключить сейчас</a>
+    </div>
+  
+    <div class="pricing-card business">
+      <h3>Бизнес версия</h3>
+      <ul>
+        <li>• Специальные скидки при заказе от 5000 ₽</li>
+        <li>• Резерв товара до 48 часов без оплаты</li>
+        <li>• Бесплатная доставка от 2500 ₽</li>
+        <li>• Оптовые "лот-боксы"</li>
+        <li>• Закрытые гайды</li>
+        <li>• Снятие ограничений на одновременные заказы</li>
+      </ul>
+      <p class="price">₽ <span>799</span>/месяц</p>
+      <a href="/html/oplata.html" class="btn subscribe">Подключить сейчас</a>
+    </div>
+  
+    <div class="pricing-card premium">
+      <h3>Премиум версия</h3>
+      <ul>
+        <li>• Еженедельные отчёты: какие монеты растут в цене</li>
+        <li>• Бесплатная доставка</li>
+        <li>• Эксклюзивный ранний доступ</li>
+        <li>• Постоянная скидка 15% на все заказы</li>
+        <li>• Консультации по инвестициям в нумизматику</li>
+        <li>• Респект от Тимура</li>
+      </ul>
+      <p class="price">₽ <span>1299</span>/месяц</p>
+      <a href="/html/oplata.html" class="btn subscribe">Подключить сейчас</a>
+    </div>
+  </div>
+
+  <div class="h1">
+    <h1>Каталог товаров</h1>
+  </div>
+
+  <div class="categories">
+    <button onclick="filter('all')" class="active">Все</button>
+    <button onclick="filter('coins')">Монеты</button>
+    <button onclick="filter('albums')">Альбомы</button>
+    <button onclick="filter('banknotes')">Банкноты</button>
+    <button onclick="filter('capsules')">Капсулы</button>
+  </div>
+
+  <div id="products" class="grid"></div>
+
+  <div class="cart-container">
+    <h2>Корзина</h2>
+    <ul id="cart"></ul>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="/html/oplata.html" class="btn subscribe">Оформить заказ</a>
+    </div>
+  </div>
+
+  <script src="/script/script-index.js"></script>
+  
+  <script>
+    function openLoginModal() {
+      document.getElementById("loginModal").classList.remove("hidden");
+    }
+  
+    function closeLoginModal() {
+      document.getElementById("loginModal").classList.add("hidden");
+    }
+  </script>
+
+</body>
+</html>

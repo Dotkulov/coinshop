@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Контакты | Лавка нумизмата</title>
+  <link rel="stylesheet" href="/style/style-contacts.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Навигация -->
+   <nav class="navbar">
+    <span class="logo-text">
+      <img src="/images/logo.png" alt="Логотип" class="logo-icon" style="width: 75px; height: 75px;" />
+
+      Лавка нумизмата
+    </span>
+  
+    <div class="pages-nav">
+      <a href="/html/" class="nav-btn active">Главная</a>
+      <a href="/html/about.html" class="nav-btn">О магазине</a>
+      <a href="/html/contacts.html" class="nav-btn">Контакты</a>
+    </div>
+
+    <div class="login-icon" onclick="openLoginModal()">
+      <i class="fas fa-user"></i>
+    </div>
+  </nav>
+
+  <div id="loginModal" class="login-modal hidden">
+    <div class="login-modal-content">
+      <span class="login-close" onclick="closeLoginModal()">&times;</span>
+      <iframe src="/html/login.html" frameborder="0" class="login-iframe"></iframe>
+    </div>
+  </div>
+  
+
+  <!-- Баннер -->
+  <section class="banner">
+    <div class="banner-content">
+      <h2>Свяжитесь с нами легко!</h2>
+      <p>Мы всегда готовы помочь вам найти редкий экземпляр для вашей коллекции.</p>
+    </div>
+  </section>
+
+  <!-- Заголовок -->
+  <h1 style="text-align:center; margin-top: 30px;">Контактная информация</h1>
+
+  <!-- Форма -->
+  <div class="contact-form" style="max-width: 600px; margin: 0 auto 50px; background: var(--color-light); padding: 30px; border-radius: var(--radius); box-shadow: var(--shadow-light);">
+    <h2 style="text-align: center;">Оформить доставку</h2>
+    <form>
+      <input type="text" placeholder="Ваше имя" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Ваше сообщение..." required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+
+  <!-- Карта -->
+  <div class="map-box">
+    <h2 style="text-align: center;">Мы на карте</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d236.48992486328152!2d43.602492655071515!3d43.49377023174172!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1744358225848!5m2!1sru!2sru"
+      width="100%"
+      height="300"
+      style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Футер -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>О нас</h4>
+        <ul>
+          <li><a href="/html/about.html">О магазине</a></li>
+          <li><a href="/html/contacts.html">Контакты</a></li>
+          <li><a href="#">Отзывы</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Покупателям</h4>
+        <ul>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="about.html">Гарантии</a></li>
+          <li><a href="oplata.html">Оплата</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Контакты</h4>
+        <ul>
+          <li>📍 г. Нальчик, ул. Орджоникидзе 172</li>
+          <li>📞 +7 (928) 711-25-87</li>
+          <li>📧 monetnik@gmail.com</li>
+          <li>🕒 Пн–Сб с 10:00 до 18:00</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Мы в сети</h4>
+        <div class="social-icons">
+          <a href="https://vk.com/feed"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vk.svg" alt="VK" /></a>
+          <a href="https://web.telegram.org/k/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" alt="Telegram" /></a>
+          <a href="https://www.youtube.com/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" /></a>
+        </div>
+        <div style="margin-top: 20px;"></div>
+        <label class="bb8-toggle">
+          <input class="bb8-toggle__checkbox" type="checkbox">
+          <div class="bb8-toggle__container">
+            <div class="bb8-toggle__scenery">
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="tatto-1"></div>
+              <div class="tatto-2"></div>
+              <div class="gomrassen"></div>
+              <div class="hermes"></div>
+              <div class="chenini"></div>
+              <div class="bb8-toggle__cloud"></div>
+              <div class="bb8-toggle__cloud"></div>
+              <div class="bb8-toggle__cloud"></div>
+            </div>
+            <div class="bb8">
+              <div class="bb8__head-container">
+                <div class="bb8__antenna"></div>
+                <div class="bb8__antenna"></div>
+                <div class="bb8__head"></div>
+              </div>
+              <div class="bb8__body"></div>
+            </div>
+            <div class="artificial__hidden">
+              <div class="bb8__shadow"></div>
+            </div>
+          </div>
+        </label>
+        
+      </div>
+      <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+        <div class="wheel"></div>
+        <div class="hamster">
+          <div class="hamster__body">
+            <div class="hamster__head">
+              <div class="hamster__ear"></div>
+              <div class="hamster__eye"></div>
+              <div class="hamster__nose"></div>
+            </div>
+            <div class="hamster__limb hamster__limb--fr"></div>
+            <div class="hamster__limb hamster__limb--fl"></div>
+            <div class="hamster__limb hamster__limb--br"></div>
+            <div class="hamster__limb hamster__limb--bl"></div>
+            <div class="hamster__tail"></div>
+          </div>
+          <img id="coin" src="/images/logo.png" alt="coin" class="coin" />
+        </div>
+        <div class="spoke"></div>
+      </div>
+    </div>
+    
+    
+    <div class="footer-bottom">
+      © 2025 Лавка нумизмата. Все права защищены.
+    </div>
+  </footer>
+
+  <script src="/script/script-contacts.js"></script>
+  
+</body>
+</html>

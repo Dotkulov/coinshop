@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+:root {
+  --font-main: 'Rubik', sans-serif;
+  --color-bg: #0f172a;
+  --color-light: #1e293b;
+  --color-dark: #e0f2fe;
+  --color-accent: #3b82f6;
+  --color-accent-hover: #2563eb;
+  --radius: 12px;
+  --shadow-light: 0 4px 12px rgba(59, 130, 246, 0.2);
+  --transition: 0.3s ease-in-out;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  margin: 0;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background: radial-gradient(circle at 30% 30%, #9ac0fd, #3c6ae9, #0f25a1);
+  background-size: 400% 400%;
+  animation: spaceFlow 20s linear infinite;
+  filter: blur(80px);
+  opacity: 0.25;
+}
+
+@keyframes spaceFlow {
+  0%   { background-position: 0% 0%; }
+  50%  { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+/* Навигация */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 30px;
+  background: #1e3a8a;
+  box-shadow: var(--shadow-light);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/*Логотип и навигация*/
+.logo-text {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: auto;
+  gap: 10px;
+  padding-right: 30px;
+}
+
+.login-icon {
+  width: 45px;
+  height: 45px;
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  box-shadow: 0 0 8px rgba(255,255,255,0.2);
+  transition: transform 0.3s ease;
+}
+
+.login-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Модальное окно логина */
+.login-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-modal.hidden {
+  display: none;
+}
+
+.login-modal-content {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  height: 600px;
+  background-color: #f9fafb;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+}
+
+.login-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.login-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.pages-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 25px auto;
+  padding: 10px 0;
+  border-radius: var(--radius);
+  max-width: 700px;
+  margin-left: 600px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background: transparent;
+  color: #e0e7ff;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+  z-index: -1;
+}
+
+.nav-btn:hover::before {
+  transform: scaleX(1);
+}
+
+.nav-btn:hover {
+  color: white;
+  border-color: var(--color-accent);
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.about-features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.card {
+  width: 240px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+  padding: 4px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 250px 1px rgba(0, 255, 117, 0.30);
+}
+
+.card2 {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  transition: all 0.2s;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card2:hover {
+  transform: scale(0.98);
+}
+
+.card2 strong {
+  display: block;
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+}
+
+.card2 p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+/* Статичные достижения */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background: var(--color-light);
+  padding: 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-light);
+  text-align: center;
+  width: 200px;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.stat-box p {
+  margin-top: 10px;
+  color: var(--color-dark);
+  font-size: 1rem;
+}
+
+/* Отключение анимаций */
+.stat-box.pulse-blue,
+.stat-box span.stat-number {
+  animation: none !important;
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.card3 {
+ width: 780px;
+ height: 180px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 18px;
+ transition: all .3s;
+ padding: 4px;
+}
+
+.card4 {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  transition: all 0.2s;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card4:hover {
+ transform: scale(0.98);
+ border-radius: 22px;
+}
+
+.card3:hover {
+ box-shadow: 100px 0px 300px 1px rgba(0, 255, 117, 0.30);
+}
